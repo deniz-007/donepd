@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>donePd</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        p { font-family: nex}
+        footer {
+            background-color: black;
+            padding: 30px;
+            width: 100%;
+            position: absolute;
+            left: -20px;
+            bottom: 0;
+        }
+
+
+        .footer-links ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .footer-links li {
+            margin: 0 15px;
+        }
+
+        .fab {
+            color: #fff;
+            font-size: 20px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .fab:hover {
+            color: #55acee; /* Twitter color */
+        }
+      section {
+          background-color: rgba(0, 0, 0, 0.12); /* Adjust the last value (0.7) for the desired transparency level */
+          border-radius: 10px; /* Adjust the value (10px) for the desired rounded corner radius */
+          padding: 20px; /* Add some padding for spacing if needed */
+      }
+      /* Style for the navigation bar */
+      nav {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.8); /* Adjust the background color as needed */
+          padding: 25px 0;
+          z-index: 1000; /* Ensures the navigation bar is on top of other elements */
+          transition: top 0.3s; /* Add smooth transition effect when the bar disappears */
+      }
+
+      /* Style for the navigation links */
+      nav ul {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          justify-content: center;
+
+      }
+
+      nav li {
+          margin: 0 15px;
+      }
+        nav li a{
+            top: 7px
+      }
+
+      nav a {
+          color: white; /* Adjust the link color as needed */
+          text-decoration: none;
+          font-size: 20px;
+          left: -250px;
+
+
+          position: relative;
+      }
+        body {
+            overflow-x: hidden; /* Hide horizontal overflow */
+        }
+
+        #bg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    </style>
+
+
+  </head>
+  <body>
+
+    <canvas id="bg"></canvas>
+    <main>
+
+        <nav>
+            <ul>
+                <li><img src="logoDp.jpeg" width="120px" style="position:relative;left: -250px"></li>
+                <li><a href="#DonePd">donepd</a></li>
+                <li><a href="#discovery">Keşif</a></li>
+                <li><a href="#project">Projeler</a></li>
+                <li><a href="#solutions">Çözümler</a></li>
+                <li><a href="#hakkımızda">Hakkımızda</a></li>
+                <li style="font-size: larger;position:relative;left: 200px">+90 (532) 359 3013</li>
+            </ul>
+        </nav>
+        <header>
+        <h1 style="font-size: 100px; font-family: nex">donepd</h1>
+        <p>Çözüm Ortağınız</p>
+      </header>
+        <section id="DonePd" style="background-color: transparent; position: relative;text-align: center; left: 200px;">
+            <h2 style="background-color: black; text-align: center" >donepd</h2>
+            <p>Uzman olduğumuz sektörde, müşterilerimize hızlı ve kesin çözümler sunarak onların ihtiyaçlarını en iyi şekilde karşılamayı hedefliyoruz.
+                Bu süreçte maliyeti göz önünde bulundurarak, müşterilerimize en uygun fiyatlı seçenekleri sunuyoruz ve e-ödeme politikasıyla kolaylık sağlıyoruz.
+                Her zaman, asıl odak noktamız projeleri tam anlamıyla bitirip başarıyla tamamlamaktır.
+                Müşteri memnuniyeti ve kaliteli hizmet bizim için her zaman önceliklidir.
+                </p>
+
+        </section>
+        <section id="discovery" style="background-color: transparent; " >
+        <h1 style="background-color: black; text-align: center">Keşif</h1>
+        <p>Elektronik güvenlik sistemlerinin doğru tasarım ve projelendirme süreçleri hayati
+            öneme sahiptir. Bu süreçlerde, risk analizi yapmak, ilgili standartları karşılamak,
+            ihtiyaçlara yönelik çözümler üretmek ve maliyet yönetimini göz önünde bulundurmak gereklidir.
+            Ayrıca, sistemlerin kullanıcılarına yönlendirici bilgiler sunarak olası acil durumlarda insan
+            hatalarını önlemek önemlidir. Yapay Zeka kullanımı, sistemlerin etkinliğini artırarak can ve mal kaybını önlemeye
+            ve zaman kaybını en aza indirmeye yardımcı olur. Elektronik güvenlik sistemleri endüstriyel projelerden sosyal projelere
+            kadar farklı alanlarda kullanılır ve Yapay Zeka entegrasyonu, sistemlerin güvenilirliğini artırır. Bu şekilde, elektronik
+            güvenlik sistemlerinin başarısı ve etkinliği maksimize edilebilir.</p>
+            <div class="container">
+ <img src="wall-e.png">
+            </div>
+      </section>
+      <section id="project" style="background-color: transparent; left: 450px; bottom: 400px;position: relative;text-align: right;">
+        <h2 style="background-color: black; text-align: center"> Projeler</h2>
+        <p>
+          Proje firmalarının sunduğu çalışmalarda, öncelikle yatay projeler ve kolon şemaları birbirleriyle karşılaştırılarak keşif listesi doğrulanmaktadır.
+            Elektronik güvenlik sistemlerinde her bir sistemin kendi çalışma prensibine göre dizayn değişikliklerine ihtiyaç duyulabilir.
+            Dizaynı doğru yapmak ve ilgili şartnameye ve uluslararası standartlara uymak zorunludur.
+            Amacımız güncel teknolojileri ve ürünleri kullanarak sürdürülebilirliği sağlamaktır.
+          Marka bağımsız olarak dizayn edilen sistemlerin, yapay zeka yazılımları ile bütünleştirilerek yapının olası iş ve can kaybının önüne geçilmesi hedeflenmektedir.
+        </p>
+          <div class="container">
+              <img src="robot.png">
+          </div>
+      </section>
+
+
+      <section id="solutions" style="background-color: transparent; position: relative;text-align: center; left: 200px; bottom: 500px">
+        <h1 style="background-color: black; text-align: center"> Çözümler</h1>
+
+        <p>
+          Firmanızın sunduğu çözümler oldukça kapsamlı ve çeşitlidir. Elektronik Güvenlik Sistemleri, Endüstriyel Çözümler ve İletişim Çözümleri gibi uzmanlık alanlarınız, müşterilere geniş bir yelpazede hizmet sunma imkanı verir. Aşağıda her bir çözüm alanınızı daha detaylı olarak açıklamış bulunmaktayım
+        </p>
+          <div class="container">
+
+              <img src="23235-5-wall-e-photos.png" style="position: relative;
+             width: 500px; height: 500px">
+          </div>
+          <br><br>
+          <br><br>
+          <h2 style="position: relative;right: 280px; background-color: dimgray">Yaşam Güvenlik Sistemleri</h2>
+          <p style="position: relative;right: 270px; text-align: left">
+              •	Yangın Algılama ve Söndürme Sistemleri: Yangın tehlikesini erken tespit ederek yangını kontrol altına almaya ve söndürmeye yönelik sistemler. <br>
+              •	Gaz Algılama: Zararlı ve tehlikeli gazların saptanması için kullanılan sistemler. <br>
+              •	Sınır Güvenlik Sistemleri: Özellikle sınır bölgelerinde kullanılan güvenlik sistemleri, sınıra yaklaşan kişileri ya da araçları tespit etmek amacıyla kullanılır. <br>
+              •	IP Kamera Sistemleri: Yüksek çözünürlüklü kameraların ağ üzerinden yönetildiği izleme sistemleri. <br>
+              •	Kartlı Geçiş Sistemleri: Yetkisiz kişilerin belli alanlara girişini engelleyen, kartlar aracılığıyla erişimi kontrol eden sistemler. <br>
+              •	Merkezi Saat Sistemleri: Büyük alanlarda veya binalarda saatin merkezi olarak senkronize edilmesini sağlayan sistemler. <br>
+              •	Hırsız İhbar Sistemleri: Hırsızlık tehdidine karşı koruma sağlayan, izinsiz girişleri algılayarak alarm veren sistemler. <br>
+              •	Plaka Tanıma Sistemleri: Araç plakalarını tanıyarak park alanlarında ya da güvenlik kontrolünde kullanılan sistemler. <br>
+              •	Otopark Yönetim Sistemleri: Otoparkların yönetimini kolaylaştıran, park alanlarını düzenleyen ve takip eden sistemler. <br></p>
+
+          <h2 style="background-color: dimgray" >Endüstriyel Çözümler</h2>
+          <p style="text-align: left">•Patlamadan Koruma Sistemleri: Patlayıcı ortamlarda çalışan ekipmanları korumak için kullanılan güvenlik sistemleri. <br>
+              •	Kıvılcım Algılama ve Söndürme: Kıvılcımın neden olabileceği tehlikeli durumları tespit eden ve önleyen sistemler.<br>
+              •	Aşırı Basınçtan Korunma: Basınçlı sistemlerde oluşabilecek aşırı basınç durumlarını denetleyen sistemler.<br>
+              •	Ex-Proof Ürünler: Patlayıcı ortamlarda kullanılmak üzere tasarlanmış ekipmanlar.
+          </p>
+          <h2 style="position: relative; left: 350px; background-color: dimgray" >İletişim Çözümleri</h2>
+          <p style="position: relative; left: 350px;text-align: left;" > •	Yapısal Kablolama: Veri, ses ve görüntü iletişimini sağlamak için yapısal kablolama sistemleri kurulumu ve yönetimi.<br>
+              •	Network Aktif Cihazlar: Veri ağında kullanılan switch, router, access point gibi aktif ağ cihazları.<br>
+              •	Telefon Santrali: Şirket içi ve dışı telefon trafiğini yöneten telefon santrali çözümleri.<br>
+              •	Data Center Alt Yapı: Veri merkezi altyapısının kurulumu, yönetimi ve güvenliği için çözümler.<br></p>
+          </section>
+      <section id="hakkımızda" style="background-color: transparent; position: relative; top: -600px">
+        <h2 style="background-color: black; text-align: center" >Hakkımızda</h2>
+<p>
+    donepd Elektrik Elektronik Bilişim ve Güvenlik Teknolojileri olarak, 23 yıllık deneyimimizle sektörün önde gelen firmalarından biriyiz. 2000 yılında inşaat ve elektrik taahhüt alanında başladığımız profesyonel yolculuğumuz, günümüzde inovasyon ve güvenlik alanlarında çığır açan projelere imza atmamızla devam ediyor.
+    Geçmişteki başarılı projelerimiz ve sektörde edindiğimiz uzmanlığımızı, 2008 yılında Sektörün öncü firmalarda İş Geliştirme ve Proje Yönetimi başlıkları altında uzun yıllara dayanan tecrübelerimizi, 2023 yılı ie donepd olarak bir araya getirdik.
+
+</p>
+        <p>Özellikle uzmanlık alanlarımız arasında yer alan Data-Network-Zayıf Akım projelerinde, İşverenimize Anahtar teslim veya Proje Çalışması, Keşif, Ürün Temini, Kablaj ve Montaj, Saha Süpervizörlüğü ve devreye alma konusunda ayrı ayrı modüler hizmet verebilmekteyiz.
+            En önemli değerin “güven” in tek madde ve tek ana yasa kabul ederek müşterilerimizin projelerine katma değer katmayı hedefliyoruz. Müşteri güvenliğini en üst düzeyde tutarak, çeşitli sektörlerin ihtiyaçlarını analiz etmek için tüm sistemleri ayrıca Yapay Zekâ ve Makine Öğrenme yazılımları ile çözümler sunuyoruz. </p>
+      </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <ul style="position: relative; text-align: left; left: 50px">
+
+                            <a href="#" class="fab fa-mail">hakan.yildirim@donepd.com</a>
+                            <br>
+                            <br>
+                            <a href="#" class="fab fa-facebook">Facebook</a>
+                            <br>
+                            <a href="#" class="fab fa-instagram">Instagram</a>
+                            <br>
+                         <a href="#" class="fab fa-linkedin">Linkedin</a>
+                            <br>
+                        <a href="#" class="fab fa-twitter">Twitter</a>
+                            <br>
+                            <img src="logoDp.jpeg" width="250px" style="position: relative; left: 900px; top: -90px">
+                            <br>
+                            <img src="bottom.jpeg"  width="1500px" style="position: relative; left: -150px; top: 100px;">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+
+
+
+
+
+
+    </main>
+
+    <script type="module" src="/main.js">
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1); // Remove the '#' character
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+
+  </body>
+</html>
